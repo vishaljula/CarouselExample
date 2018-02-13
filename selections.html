@@ -1,0 +1,12 @@
+<div>
+  <form action="#" method="post" class="demoForm" id="demoForm">
+    <fieldset>
+      {{#selections}}
+        <label>
+          <input type="checkbox" name="tracks" value={{name}} /> {{name}}
+        </label>
+      {{/selections}}
+    </fieldset>
+    <button id="display-comparison" type="button">Submit</button>
+  </form>
+</div>

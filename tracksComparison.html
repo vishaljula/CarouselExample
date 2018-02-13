@@ -1,0 +1,17 @@
+<div>
+  <div id="comparison-carousel" class="owl-carousel">
+  {{#tracks}}
+    <div>
+      <dl class="course-section">
+        <dt>{{courseFeatures.name}}</dt>
+        <dt>{{courseFeatures.department}}</dt>
+        <dt>{{courseFeatures.description}}</dt>
+        <dt>{{courseFeatures.majorCreditHistory}}</dt>
+        <dt>{{courseFeatures.minorCreditHistory}}</dt>
+      </dl>
+    </div>
+  {{/tracks}}
+  </div>
+  <button id="prev-course-section" type="button"><i class="fa fa-angle-left"></i></button>
+  <button id="next-course-section" type="button"><i class="fa fa-angle-right"></i></button>
+</div>
